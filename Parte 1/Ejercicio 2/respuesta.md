@@ -9,7 +9,7 @@ Búsquedas, inserciones y eliminaciones rápidas: una base de datos de usuarios 
 
 b) Para una implementación de un caso realista se propone un índice de productos en un sistema de inventario, donde se utiliza un árbol B para buscar rápidamente productos a partir de su código. En un comercio con gran cantidad de productos, las operaciones más frecuentes son la búsqueda de un producto por código, la inserción de nuevos productos y el mantenimiento de una organización automática cada vez que el inventario se modifica.
 En el código propuesto, cada valor numérico representa el código de un producto, mientras que el árbol B cumple la función de índice. Esto permite realizar búsquedas de manera eficiente, incluso cuando la cantidad de datos crece considerablemente, ya que se evita recorrer todos los elementos.
-
+(VER CÓDIGO)
 
 La estructura se compone de nodos que pueden ser hojas o nodos internos. En los nodos hoja se insertan directamente los datos, mientras que en los nodos internos se decide a qué hijo descender en función del valor de la clave. De esta forma, el algoritmo guía tanto la búsqueda como la inserción de manera ordenada.
 La inserción se realiza manteniendo el árbol balanceado en todo momento. Para ello, si un nodo aún tiene capacidad, se utiliza la función insertarNoLleno, que ubica el elemento en la posición correcta sin alterar la estructura. En cambio, cuando un nodo alcanza su capacidad máxima, se aplica la operación dividirHijo, que separa el nodo en dos y promueve la clave central al nodo padre. Este mecanismo evita la sobrecarga de los nodos y mantiene el orden de los datos.
