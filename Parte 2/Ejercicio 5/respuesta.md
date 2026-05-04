@@ -1,4 +1,4 @@
-![descripcion](imagenes/ej5.png)
+![descripcion](./imagenes/9.png)
 
 
 a) Para pensar la aplicación real de un algoritmo que cumpla pautas de cifrado y seguridad, se propone tomar la aplicación de comunicación instantánea Telegram. En este tipo de sistemas, la prioridad es garantizar que los mensajes enviados entre dos usuarios no puedan ser leídos por terceros no autorizados. Aquí entra en juego el algoritmo RSA, que es un algoritmo de cifrado asimétrico: utiliza una clave pública para cifrar y una clave privada para descifrar, basándose en propiedades matemáticas de los números primos.
