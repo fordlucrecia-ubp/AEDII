@@ -1,4 +1,5 @@
-![9](imagenes/9.png)
+![descripcion](imagenes/ej5.png)
+
 
 a) Para pensar la aplicación real de un algoritmo que cumpla pautas de cifrado y seguridad, se propone tomar la aplicación de comunicación instantánea Telegram. En este tipo de sistemas, la prioridad es garantizar que los mensajes enviados entre dos usuarios no puedan ser leídos por terceros no autorizados. Aquí entra en juego el algoritmo RSA, que es un algoritmo de cifrado asimétrico: utiliza una clave pública para cifrar y una clave privada para descifrar, basándose en propiedades matemáticas de los números primos.
 Telegram implementa RSA de 2048 bits como parte de su protocolo de seguridad MTProto. En este esquema, RSA no cifra el contenido del mensaje directamente, sino que cumple una función igualmente crítica: proteger el intercambio inicial de claves entre el cliente y el servidor. Es decir, RSA garantiza que las claves de sesión que luego cifrarán los mensajes lleguen al destinatario correcto sin haber sido comprometidas en tránsito. De esta manera, incluso si alguien intercepta la comunicación, no podrá obtener las claves necesarias para descifrar los mensajes.
