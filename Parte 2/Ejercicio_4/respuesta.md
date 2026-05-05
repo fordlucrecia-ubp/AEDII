@@ -1,4 +1,4 @@
-git add .
+![descripcion](imagenes/8.png)
 a) En el marco de la innovación digital, las empresas de telecomunicaciones enfrentan el desafío de garantizar una cobertura eficiente y confiable en sus redes móviles. La distribución espacial de las antenas y la identificación de zonas críticas de señal constituyen problemas complejos que requieren soluciones matemáticas y algorítmicas avanzadas. Es en este contexto, la geometría computacional se convierte en un recurso estratégico al ofrecer modelos precisos para representar y analizar la influencia de cada torre de transmisión sobre el territorio.
 Para su modelado, los diagramas de Voronoi destacan como una herramienta particularmente adecuada para este escenario. Su capacidad de dividir el plano en regiones asociadas a la antena más cercana permite visualizar de manera directa la cobertura, detectar vacíos de señal y planificar la disposición óptima de los transmisores. Complementariamente, la triangulación de Delaunay, como estructura dual, facilita el estudio de las relaciones de vecindad entre antenas y la optimización de la infraestructura.
 
